@@ -6,6 +6,7 @@ import java.util.*;
 public class Text {
     public enum Style { BOLD, ITALIC, UNDERLINE, STRIKETHROUGH }
 
+    public enum type {ONE ,TWO ,THREE,FOUR};
     // Any Set could be passed in, but EnumSet is clearly best
     public void applyStyles(Set<Style> styles) {
         // Body goes here
