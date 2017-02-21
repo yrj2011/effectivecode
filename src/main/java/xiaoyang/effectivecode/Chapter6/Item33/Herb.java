@@ -36,6 +36,7 @@ public class Herb {
             herbsByType.put(t, new HashSet<Herb>());
         for (Herb h : garden)
             herbsByType.get(h.type).add(h);
+        
         System.out.println(herbsByType);
     }
 }
